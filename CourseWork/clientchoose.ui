@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ClientChoose</class>
+ <widget class="QDialog" name="ClientChoose">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>843</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#ClientChoose{background-color: rgb(102, 153, 153);}</string>
+  </property>
+  <widget class="QTableWidget" name="Possible_Time">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>68</y>
+     <width>831</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(102, 153, 153);</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>10</y>
+     <width>229</width>
+     <height>58</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>                  ФИО</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Номер телефона</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLineEdit" name="FIO">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="Phone_Number"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="Zapis">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>90</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis1">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>120</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis2">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>150</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis3">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>180</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis4">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>210</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis5">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>240</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis6">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>270</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis7">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>300</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis8">
+   <property name="geometry">
+    <rect>
+     <x>115</x>
+     <y>330</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis10">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>90</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis11">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>120</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis12">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>150</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis13">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>180</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis14">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>210</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis15">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>240</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis16">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>270</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis17">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>300</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis18">
+   <property name="geometry">
+    <rect>
+     <x>214</x>
+     <y>330</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis19">
+   <property name="geometry">
+    <rect>
+     <x>313</x>
+     <y>90</y>
+     <width>104</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis20">
+   <property name="geometry">
+    <rect>
+     <x>313</x>
+     <y>120</y>
+     <width>104</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis21">
+   <property name="geometry">
+    <rect>
+     <x>313</x>
+     <y>150</y>
+     <width>104</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis22">
+   <property name="geometry">
+    <rect>
+     <x>313</x>
+     <y>180</y>
+     <width>104</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis23">
+   <property name="geometry">
+    <rect>
+     <x>313</x>
+     <y>210</y>
+     <width>104</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis24">
+   <property name="geometry">
+    <rect>
+     <x>313</x>
+     <y>240</y>
+     <width>104</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis25">
+   <property name="geometry">
+    <rect>
+     <x>313</x>
+     <y>270</y>
+     <width>104</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis26">
+   <property name="geometry">
+    <rect>
+     <x>313</x>
+     <y>300</y>
+     <width>104</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis27">
+   <property name="geometry">
+    <rect>
+     <x>313</x>
+     <y>330</y>
+     <width>104</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis28">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>90</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis29">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>120</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis30">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>150</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis31">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>180</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis32">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>210</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis33">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>240</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis34">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>270</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis35">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>300</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis36">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>330</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis37">
+   <property name="geometry">
+    <rect>
+     <x>514</x>
+     <y>90</y>
+     <width>103</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis38">
+   <property name="geometry">
+    <rect>
+     <x>514</x>
+     <y>120</y>
+     <width>103</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis39">
+   <property name="geometry">
+    <rect>
+     <x>514</x>
+     <y>150</y>
+     <width>103</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis40">
+   <property name="geometry">
+    <rect>
+     <x>514</x>
+     <y>180</y>
+     <width>103</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis41">
+   <property name="geometry">
+    <rect>
+     <x>514</x>
+     <y>210</y>
+     <width>103</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis42">
+   <property name="geometry">
+    <rect>
+     <x>514</x>
+     <y>240</y>
+     <width>103</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis43">
+   <property name="geometry">
+    <rect>
+     <x>514</x>
+     <y>270</y>
+     <width>103</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis44">
+   <property name="geometry">
+    <rect>
+     <x>514</x>
+     <y>300</y>
+     <width>103</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis45">
+   <property name="geometry">
+    <rect>
+     <x>514</x>
+     <y>330</y>
+     <width>103</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis46">
+   <property name="geometry">
+    <rect>
+     <x>615</x>
+     <y>90</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis47">
+   <property name="geometry">
+    <rect>
+     <x>615</x>
+     <y>120</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis48">
+   <property name="geometry">
+    <rect>
+     <x>615</x>
+     <y>150</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis49">
+   <property name="geometry">
+    <rect>
+     <x>615</x>
+     <y>180</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis50">
+   <property name="geometry">
+    <rect>
+     <x>615</x>
+     <y>210</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis51">
+   <property name="geometry">
+    <rect>
+     <x>615</x>
+     <y>240</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis52">
+   <property name="geometry">
+    <rect>
+     <x>615</x>
+     <y>270</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis53">
+   <property name="geometry">
+    <rect>
+     <x>615</x>
+     <y>300</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis54">
+   <property name="geometry">
+    <rect>
+     <x>615</x>
+     <y>330</y>
+     <width>101</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis55">
+   <property name="geometry">
+    <rect>
+     <x>714</x>
+     <y>90</y>
+     <width>102</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis56">
+   <property name="geometry">
+    <rect>
+     <x>714</x>
+     <y>120</y>
+     <width>102</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis57">
+   <property name="geometry">
+    <rect>
+     <x>714</x>
+     <y>150</y>
+     <width>102</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis58">
+   <property name="geometry">
+    <rect>
+     <x>714</x>
+     <y>180</y>
+     <width>102</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis59">
+   <property name="geometry">
+    <rect>
+     <x>714</x>
+     <y>210</y>
+     <width>102</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis60">
+   <property name="geometry">
+    <rect>
+     <x>714</x>
+     <y>240</y>
+     <width>102</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis61">
+   <property name="geometry">
+    <rect>
+     <x>714</x>
+     <y>270</y>
+     <width>102</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis62">
+   <property name="geometry">
+    <rect>
+     <x>714</x>
+     <y>300</y>
+     <width>102</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Zapis63">
+   <property name="geometry">
+    <rect>
+     <x>714</x>
+     <y>330</y>
+     <width>102</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Записаться</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
