@@ -12,6 +12,7 @@ tue::tue(QWidget *parent) :
     ui(new Ui::tue)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Выбор доступного время для приема");
 }
 
 tue::~tue()

@@ -6,6 +6,7 @@ sat::sat(QWidget *parent) :
     ui(new Ui::sat)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Выбор доступного время для приема");
 }
 
 sat::~sat()

@@ -12,6 +12,7 @@ fri::fri(QWidget *parent) :
     ui(new Ui::fri)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Выбор доступного время для приема");
 }
 
 fri::~fri()

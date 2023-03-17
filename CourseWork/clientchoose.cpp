@@ -13,6 +13,7 @@ ClientChoose::ClientChoose(QWidget *parent) :
     ui(new Ui::ClientChoose)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Запись ко врачу");
     on_Possible_Time_cellActivated();
     readDbAndDisplayTable();
 }
@@ -524,7 +525,7 @@ void ClientChoose::on_Zapis_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -550,7 +551,7 @@ void ClientChoose::on_Zapis1_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -576,7 +577,7 @@ void ClientChoose::on_Zapis2_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -602,7 +603,7 @@ void ClientChoose::on_Zapis3_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -628,7 +629,7 @@ void ClientChoose::on_Zapis4_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -654,7 +655,7 @@ void ClientChoose::on_Zapis5_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -680,7 +681,7 @@ void ClientChoose::on_Zapis6_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -707,7 +708,7 @@ void ClientChoose::on_Zapis7_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -733,7 +734,7 @@ void ClientChoose::on_Zapis8_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -759,7 +760,7 @@ void ClientChoose::on_Zapis10_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -785,7 +786,7 @@ void ClientChoose::on_Zapis11_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -811,7 +812,7 @@ void ClientChoose::on_Zapis12_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -837,7 +838,7 @@ void ClientChoose::on_Zapis13_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -863,7 +864,7 @@ void ClientChoose::on_Zapis14_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -889,7 +890,7 @@ void ClientChoose::on_Zapis15_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -915,7 +916,7 @@ void ClientChoose::on_Zapis16_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -941,7 +942,7 @@ void ClientChoose::on_Zapis17_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -967,7 +968,7 @@ void ClientChoose::on_Zapis18_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -993,7 +994,7 @@ void ClientChoose::on_Zapis19_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1019,7 +1020,7 @@ void ClientChoose::on_Zapis20_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1045,7 +1046,7 @@ void ClientChoose::on_Zapis21_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1071,7 +1072,7 @@ void ClientChoose::on_Zapis22_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1097,7 +1098,7 @@ void ClientChoose::on_Zapis23_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1123,7 +1124,7 @@ void ClientChoose::on_Zapis24_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1149,7 +1150,7 @@ void ClientChoose::on_Zapis25_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1175,7 +1176,7 @@ void ClientChoose::on_Zapis26_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1201,7 +1202,7 @@ void ClientChoose::on_Zapis27_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1227,7 +1228,7 @@ void ClientChoose::on_Zapis28_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1253,7 +1254,7 @@ void ClientChoose::on_Zapis29_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1279,7 +1280,7 @@ void ClientChoose::on_Zapis30_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1305,7 +1306,7 @@ void ClientChoose::on_Zapis31_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1331,7 +1332,7 @@ void ClientChoose::on_Zapis32_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1357,7 +1358,7 @@ void ClientChoose::on_Zapis33_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1383,7 +1384,7 @@ void ClientChoose::on_Zapis34_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1409,7 +1410,7 @@ void ClientChoose::on_Zapis35_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1435,7 +1436,7 @@ void ClientChoose::on_Zapis36_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1461,7 +1462,7 @@ void ClientChoose::on_Zapis37_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1487,7 +1488,7 @@ void ClientChoose::on_Zapis38_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1513,7 +1514,7 @@ void ClientChoose::on_Zapis39_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1539,7 +1540,7 @@ void ClientChoose::on_Zapis40_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1565,7 +1566,7 @@ void ClientChoose::on_Zapis41_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1591,7 +1592,7 @@ void ClientChoose::on_Zapis42_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1617,7 +1618,7 @@ void ClientChoose::on_Zapis43_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1643,7 +1644,7 @@ void ClientChoose::on_Zapis44_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1669,7 +1670,7 @@ void ClientChoose::on_Zapis45_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1695,7 +1696,7 @@ void ClientChoose::on_Zapis46_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1721,7 +1722,7 @@ void ClientChoose::on_Zapis47_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1747,7 +1748,7 @@ void ClientChoose::on_Zapis48_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1773,7 +1774,7 @@ void ClientChoose::on_Zapis49_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1799,7 +1800,7 @@ void ClientChoose::on_Zapis50_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1825,7 +1826,7 @@ void ClientChoose::on_Zapis51_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1851,7 +1852,7 @@ void ClientChoose::on_Zapis52_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1877,7 +1878,7 @@ void ClientChoose::on_Zapis53_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1903,7 +1904,7 @@ void ClientChoose::on_Zapis54_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1929,7 +1930,7 @@ void ClientChoose::on_Zapis55_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1955,7 +1956,7 @@ void ClientChoose::on_Zapis56_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -1981,7 +1982,7 @@ void ClientChoose::on_Zapis57_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -2007,7 +2008,7 @@ void ClientChoose::on_Zapis58_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -2033,7 +2034,7 @@ void ClientChoose::on_Zapis59_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -2059,7 +2060,7 @@ void ClientChoose::on_Zapis60_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -2085,7 +2086,7 @@ void ClientChoose::on_Zapis61_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -2111,7 +2112,7 @@ void ClientChoose::on_Zapis62_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }
 
@@ -2137,6 +2138,6 @@ void ClientChoose::on_Zapis63_clicked()
     }
     else
     {
-        QMessageBox::information(this, "Ошибка", "Вы не ввели данные");
+        QMessageBox::information(this, "Ошибка", "Вы не ввели контактные данные");
     }
 }

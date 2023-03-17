@@ -13,6 +13,8 @@ mon::mon(QWidget *parent) :
     ui(new Ui::mon)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Выбор доступного время для приема");
+
 }
 
 mon::~mon()

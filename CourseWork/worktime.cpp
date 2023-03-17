@@ -19,6 +19,7 @@ worktime::worktime(QWidget *parent) :
     ui(new Ui::worktime)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Просмотр расписания и записавшихся пациентов");
     readDbAndDisplayTable();
 }
 

@@ -8,6 +8,8 @@ SecondWindow::SecondWindow(QWidget *parent) :
     ui(new Ui::SecondWindow)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Вход в учетную запись");
+
 }
 
 SecondWindow::~SecondWindow()

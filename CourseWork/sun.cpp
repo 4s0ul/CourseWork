@@ -12,6 +12,7 @@ sun::sun(QWidget *parent) :
     ui(new Ui::sun)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Выбор доступного время для приема");
 }
 
 sun::~sun()

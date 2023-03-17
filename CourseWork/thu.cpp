@@ -12,6 +12,7 @@ Thu::Thu(QWidget *parent) :
     ui(new Ui::Thu)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Выбор доступного время для приема");
 }
 
 Thu::~Thu()

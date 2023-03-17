@@ -12,6 +12,7 @@ Wed::Wed(QWidget *parent) :
     ui(new Ui::Wed)
 {
     ui->setupUi(this);
+    this->setWindowTitle("Выбор доступного время для приема");
 }
 
 Wed::~Wed()
